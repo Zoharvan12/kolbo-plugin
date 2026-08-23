@@ -1,0 +1,17 @@
+{
+  "name": "kolbo",
+  "description": "Create and edit images, video, music, speech, sound and 3D with Kolbo.AI — 100+ creative models, consistent characters via Visual DNA, all synced to your Kolbo projects and media library.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kolbo AI",
+    "email": "support@kolbo.ai"
+  },
+  "homepage": "https://kolbo.ai/kolbo-mcp",
+  "repository": "https://github.com/Zoharvan12/kolbo-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["kolbo", "image", "video", "music", "voice", "3d", "visual-dna", "creative", "generation"],
+  "logo": "assets/kolbo-logo.png",
+  "skills": "skills/",
+  "commands": "commands/",
+  "mcpServers": "mcp.json"
+}
