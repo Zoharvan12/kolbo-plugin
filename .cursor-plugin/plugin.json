@@ -7,7 +7,7 @@
     "email": "support@kolbo.ai"
   },
   "homepage": "https://kolbo.ai/kolbo-mcp",
-  "repository": "https://github.com/Zoharvan12/kolbo-cursor-plugin",
+  "repository": "https://github.com/Zoharvan12/kolbo-plugin",
   "license": "MIT",
   "keywords": ["kolbo", "image", "video", "music", "voice", "3d", "visual-dna", "creative", "generation"],
   "logo": "assets/kolbo-logo.png",
