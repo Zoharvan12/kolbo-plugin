@@ -5,6 +5,8 @@ description: Generate music, speech, or sound effects with Kolbo.AI. Use when th
 
 # Generate audio with Kolbo
 
+First load the bundled `kolbo` skill and its matching model/workflow reference. Its routing, live catalog and approval rules take precedence over these quick-start notes. For a micro-drama series, follow the Micro-Drama Studio route in that skill.
+
 | The user wants | Tool |
 |---|---|
 | A song or background track | `generate_music` |

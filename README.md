@@ -20,11 +20,16 @@ The same plugin is available in Grok Bot, which reads the same catalog.
 
 | Component | |
 |---|---|
-| **Skills** | `generate-image`, `generate-video`, `generate-audio` |
+| **Skills** | Canonical `kolbo` skill including Micro-Drama Studio, plus `generate-image`, `generate-video`, `generate-audio` entry points |
 | **Command** | `/kolbo` — run Kolbo workflows in natural language |
 | **MCP** | `kolbo` → `https://api.kolbo.ai/mcp` |
 
 ## Authentication
+
+Skill content in `skills/kolbo/` is generated from
+`kolbo-code/packages/opencode/skills/kolbo/`. Edit that source; the canonical
+distribution workflow keeps this plugin current. Micro-Drama Studio covers
+series bibles, cast, voices, episodes, edits, trailers and key art.
 
 The MCP server uses OAuth. The first tool call opens a browser sign-in to your
 Kolbo account; nothing is stored in this repo and no API key is required.

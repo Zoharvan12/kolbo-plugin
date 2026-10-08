@@ -5,6 +5,8 @@ description: Generate video with Kolbo.AI. Use when the user asks to create, gen
 
 # Generate video with Kolbo
 
+First load the bundled `kolbo` skill and its matching model/workflow reference. Its routing, live catalog and approval rules take precedence over these quick-start notes. For a micro-drama series, follow the Micro-Drama Studio route in that skill.
+
 Three entry points, and picking the right one matters more than the prompt:
 
 | The user has | Tool |
@@ -12,7 +14,8 @@ Three entry points, and picking the right one matters more than the prompt:
 | Only an idea | `generate_video` (text to video) |
 | A starting image | `generate_video_from_image` |
 | A start and end frame | `generate_first_last_frame` |
-| A whole scripted sequence | `generate_creative_director` |
+| Explicit Creative Director / Video Auto Pilot / Cinema Manual request | `generate_creative_director` |
+| A scripted film or episodic series | Follow the canonical Filmmaking or Micro-Drama Studio workflow |
 
 Call `list_models` when the user cares about duration, resolution, sound or cost — video models differ sharply on all four, and durations are per-model rather than free-form.
 

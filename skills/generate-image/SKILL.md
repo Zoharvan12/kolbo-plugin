@@ -5,6 +5,8 @@ description: Generate or edit images with Kolbo.AI. Use when the user asks to cr
 
 # Generate images with Kolbo
 
+First load the bundled `kolbo` skill and its matching model/workflow reference. Its routing, live catalog and approval rules take precedence over these quick-start notes. For a micro-drama series, follow the Micro-Drama Studio route in that skill.
+
 Use the `generate_image` MCP tool. Deliver the actual image — never just describe what you would make.
 
 ## Before you generate
